@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "15.0",
+      "flowVersion": "0.53"
+    },
+    "propWrapperFunctions": [ "forbidExtraProps" ]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  }
+}

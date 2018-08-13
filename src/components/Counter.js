@@ -11,8 +11,8 @@ export const counter = (state = 0, action) => {
   }
 }
 
-//expect(counter(0, { type: 'INCREMENT'})).toEqual(1);
-//console.log('Test passed');
+// expect(counter(0, { type: 'INCREMENT'})).toEqual(1);
+// console.log('Test passed');
 
 export const Counter = ({
   value,
